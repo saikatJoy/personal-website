@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.head-bann{
+    background-image: url("./imm/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+}
+P{
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin-top:10%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.orange-highlight{
+    color:palevioletred;
+}
+.btn{
+    background-color: palevioletred;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.middle-bann{
+    background-image: url("./imm/biography-bg.png");
+    background-repeat: no-repeat;
+    margin-bottom: 30%;
+}
+.last-bann{
+    background-image: url("./imm/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.latest-h{
+    text-align: center;
+}
+.last-bann .latest-bann{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.last-bann .latest-bann .work-1{
+	width: 30%;
+	padding: 20px;
+}
+.last-bann .latest-bann .work-1 img{
+	max-width: 100%;
+}
+.client{
+    text-align: center;
+    margin-top: 10%;
+}
+.message{
+  padding: 30px 40px;
+  background-color:palevioletred;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px 10px 10px 10px;
+}
+.under-bann{
+    background-image: url("./imm/footer-bg.png");
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+    margin-top: 10%;
+}
